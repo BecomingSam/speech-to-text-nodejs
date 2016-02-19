@@ -4,7 +4,7 @@ declared-services:
     label: speech_to_text
     plan: standard
 applications:
-- name: speech-to-text-demo
+- name: ummo-v1
   path: .
   command: npm start
   memory: 512M
